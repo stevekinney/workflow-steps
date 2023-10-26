@@ -8,7 +8,7 @@ const { double, addTwo, subtractSeven } = proxyActivities<typeof activities>({
   },
 });
 
-export const veryFancyComputation = async (amount: number): Promise<number> => {
+export const veryFancyComputation = async (amount: number) => {
   amount = await double(amount);
   amount = await addTwo(amount);
   amount = await subtractSeven(amount);

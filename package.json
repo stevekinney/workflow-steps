@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "start": "esno src/worker.ts",
     "start.watch": "nodemon src/worker.ts",
-    "workflow": "esno src/client.ts"
+    "workflow": "esno src/client.ts",
+    "without": "esno src/without-temporal.ts"
   },
   "nodemonConfig": {
     "execMap": {
