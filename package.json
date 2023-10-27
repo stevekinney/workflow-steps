@@ -8,7 +8,7 @@
     "build.watch": "tsc --build --watch",
     "lint": "eslint .",
     "start": "esno src/worker.ts",
-    "start.watch": "nodemon src/worker.ts",
+    "worker": "esno src/worker.ts",
     "workflow": "esno src/client.ts",
     "without": "esno src/without-temporal.ts"
   },
